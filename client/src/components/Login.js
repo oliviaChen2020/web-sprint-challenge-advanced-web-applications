@@ -32,7 +32,7 @@ class Login extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="login-form">
         <form onSubmit={this.login}>
           <input
             type="text"
@@ -48,7 +48,7 @@ class Login extends React.Component {
             onChange={this.handleChange}
             placeholder="Enter Password"
           />
-          <button>Log in</button>
+          <button className="login-btn">Log in</button>
         </form>
       </div>
     );
